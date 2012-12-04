@@ -255,7 +255,6 @@
     fmt2.dateFormat = @"EEE";
 
     NSString *locale = [[NSLocale currentLocale] localeIdentifier];
-    NSLog(@"locale : %@",locale);
     
     as.title = [NSString stringWithFormat:@"%@(%@)\n\n\n\n\n\n\n\n\n\n\n\n\n",[fmt1 stringFromDate:aDate],
         ([locale isEqualToString:@"ja_JP"])?[fmt2 stringFromDate:aDate]:[weekDic objectForKey:[fmt2 stringFromDate:aDate]]];
@@ -284,7 +283,8 @@
 	self.calendarViewNew = aCalendarView;
 	[aCalendarView release];
 	
-	if (animate) {
+	if (animate)
+    {
 		[UIView beginAnimations:NULL context:nil];
 		[UIView setAnimationDelegate:self];
 		[UIView setAnimationDidStopSelector:@selector(animationMonthSlideComplete)];
@@ -295,10 +295,12 @@
 	calendarView.frame = CGRectOffset(calendarView.frame, -distance, 0);
 	aCalendarView.frame = CGRectOffset(aCalendarView.frame, -distance, 0);
 	
-	if (animate) {
+	if (animate)
+    {
 		[UIView commitAnimations];
-		
-	} else {
+	}
+    else
+    {
 		[self animationMonthSlideComplete];
 	}
 }

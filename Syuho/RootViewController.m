@@ -36,7 +36,7 @@
 
     //設定できる内容と、何も設定してないときの初期値
     msgArray = [[NSArray alloc] initWithObjects:@"To", @"Cc", @"Bcc", @"Name", @"Mail", @"Work Place", @"Project Name", nil];
-    defArray = [[NSArray alloc] initWithObjects:@"wr@secure-i.jp", @"", @"", @"XX XX", @"xxxxxx@secure-i.jp", @"", @"", nil];
+    defArray = [[NSArray alloc] initWithObjects:@"xxx@yyy.jp", @"", @"", @"XX XX", @"xxx@yyy.jp", @"", @"", nil];
 }
 
 - (void)viewDidUnload
