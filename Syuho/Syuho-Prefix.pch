@@ -1,0 +1,22 @@
+
+//ここに書いた内容は全ファイルで共通となる（pch：プレコンパイルヘッダー）
+//便利な面もあるが、常にメモリ上に配置されるということなので、ご利用は計画的に
+//GoogleAnalyticsのヘッダーファイルのインポートとかはここでする
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+
+    //HEADER
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    //
+    #define DELEGATE           ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+    #define STD_DEFAULTS       [NSUserDefaults standardUserDefaults]
+
+    //APP INFO
+    #define APP_NAME           @"Syuho"
+    #define APP_VERSION        @"1.0"
+
+#endif

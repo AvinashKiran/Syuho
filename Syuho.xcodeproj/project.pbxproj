@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8A2F111647A564009AF2E4 /* CalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A2EF51647A564009AF2E4 /* CalendarLogic.m */; };
+		CE8A2F121647A564009AF2E4 /* CalendarMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A2EF81647A564009AF2E4 /* CalendarMonth.m */; };
+		CE8A2F131647A564009AF2E4 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A2EFA1647A564009AF2E4 /* CalendarViewController.m */; };
+		CE8A2F141647A564009AF2E4 /* CalendarArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2EFD1647A564009AF2E4 /* CalendarArrowLeft.png */; };
+		CE8A2F151647A564009AF2E4 /* CalendarArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2EFE1647A564009AF2E4 /* CalendarArrowLeft@2x.png */; };
+		CE8A2F161647A564009AF2E4 /* CalendarArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2EFF1647A564009AF2E4 /* CalendarArrowRight.png */; };
+		CE8A2F171647A564009AF2E4 /* CalendarArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F001647A564009AF2E4 /* CalendarArrowRight@2x.png */; };
+		CE8A2F181647A564009AF2E4 /* CalendarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F011647A564009AF2E4 /* CalendarBackground.png */; };
+		CE8A2F191647A564009AF2E4 /* CalendarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F021647A564009AF2E4 /* CalendarBackground@2x.png */; };
+		CE8A2F1A1647A564009AF2E4 /* CalendarDaySelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F031647A564009AF2E4 /* CalendarDaySelected.png */; };
+		CE8A2F1B1647A564009AF2E4 /* CalendarDaySelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F041647A564009AF2E4 /* CalendarDaySelected@2x.png */; };
+		CE8A2F1C1647A564009AF2E4 /* CalendarDayTile.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F051647A564009AF2E4 /* CalendarDayTile.png */; };
+		CE8A2F1D1647A564009AF2E4 /* CalendarDayTile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F061647A564009AF2E4 /* CalendarDayTile@2x.png */; };
+		CE8A2F1E1647A564009AF2E4 /* CalendarDayToday.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F071647A564009AF2E4 /* CalendarDayToday.png */; };
+		CE8A2F1F1647A564009AF2E4 /* CalendarDayToday@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F081647A564009AF2E4 /* CalendarDayToday@2x.png */; };
+		CE8A2F201647A564009AF2E4 /* CalendarDayTodaySelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F091647A564009AF2E4 /* CalendarDayTodaySelected.png */; };
+		CE8A2F211647A564009AF2E4 /* CalendarDayTodaySelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F0A1647A564009AF2E4 /* CalendarDayTodaySelected@2x.png */; };
+		CE8A2F221647A564009AF2E4 /* CalendarShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F0B1647A564009AF2E4 /* CalendarShadow.png */; };
+		CE8A2F231647A564009AF2E4 /* CalendarShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F0C1647A564009AF2E4 /* CalendarShadow@2x.png */; };
+		CE8A2F241647A564009AF2E4 /* CalendarTitleColor.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F0D1647A564009AF2E4 /* CalendarTitleColor.png */; };
+		CE8A2F251647A564009AF2E4 /* CalendarTitleColor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F0E1647A564009AF2E4 /* CalendarTitleColor@2x.png */; };
+		CE8A2F261647A564009AF2E4 /* CalendarTitleDimColor.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F0F1647A564009AF2E4 /* CalendarTitleDimColor.png */; };
+		CE8A2F271647A564009AF2E4 /* CalendarTitleDimColor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2F101647A564009AF2E4 /* CalendarTitleDimColor@2x.png */; };
+		CEFC90F3164773FA008FD37F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC90F2164773FA008FD37F /* UIKit.framework */; };
+		CEFC90F5164773FA008FD37F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC90F4164773FA008FD37F /* Foundation.framework */; };
+		CEFC90F7164773FA008FD37F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC90F6164773FA008FD37F /* CoreGraphics.framework */; };
+		CEFC90FD164773FA008FD37F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFC90FB164773FA008FD37F /* InfoPlist.strings */; };
+		CEFC90FF164773FA008FD37F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC90FE164773FA008FD37F /* main.m */; };
+		CEFC9103164773FA008FD37F /* SyuhoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC9102164773FA008FD37F /* SyuhoAppDelegate.m */; };
+		CEFC9105164773FA008FD37F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFC9104164773FA008FD37F /* Default.png */; };
+		CEFC9107164773FA008FD37F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFC9106164773FA008FD37F /* Default@2x.png */; };
+		CEFC9109164773FA008FD37F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFC9108164773FA008FD37F /* Default-568h@2x.png */; };
+		CEFC910C164773FB008FD37F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC910B164773FB008FD37F /* RootViewController.m */; };
+		CEFC911B1647744B008FD37F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC911916477440008FD37F /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE8A2EF41647A564009AF2E4 /* CalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarLogic.h; sourceTree = "<group>"; };
+		CE8A2EF51647A564009AF2E4 /* CalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarLogic.m; sourceTree = "<group>"; };
+		CE8A2EF61647A564009AF2E4 /* CalendarLogicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarLogicDelegate.h; sourceTree = "<group>"; };
+		CE8A2EF71647A564009AF2E4 /* CalendarMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonth.h; sourceTree = "<group>"; };
+		CE8A2EF81647A564009AF2E4 /* CalendarMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonth.m; sourceTree = "<group>"; };
+		CE8A2EF91647A564009AF2E4 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = ../Calendar/CalendarViewController.h; sourceTree = "<group>"; };
+		CE8A2EFA1647A564009AF2E4 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = ../Calendar/CalendarViewController.m; sourceTree = "<group>"; };
+		CE8A2EFB1647A564009AF2E4 /* CalendarViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewControllerDelegate.h; sourceTree = "<group>"; };
+		CE8A2EFD1647A564009AF2E4 /* CalendarArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarArrowLeft.png; sourceTree = "<group>"; };
+		CE8A2EFE1647A564009AF2E4 /* CalendarArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarArrowLeft@2x.png"; sourceTree = "<group>"; };
+		CE8A2EFF1647A564009AF2E4 /* CalendarArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarArrowRight.png; sourceTree = "<group>"; };
+		CE8A2F001647A564009AF2E4 /* CalendarArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarArrowRight@2x.png"; sourceTree = "<group>"; };
+		CE8A2F011647A564009AF2E4 /* CalendarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBackground.png; sourceTree = "<group>"; };
+		CE8A2F021647A564009AF2E4 /* CalendarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarBackground@2x.png"; sourceTree = "<group>"; };
+		CE8A2F031647A564009AF2E4 /* CalendarDaySelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarDaySelected.png; sourceTree = "<group>"; };
+		CE8A2F041647A564009AF2E4 /* CalendarDaySelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarDaySelected@2x.png"; sourceTree = "<group>"; };
+		CE8A2F051647A564009AF2E4 /* CalendarDayTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarDayTile.png; sourceTree = "<group>"; };
+		CE8A2F061647A564009AF2E4 /* CalendarDayTile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarDayTile@2x.png"; sourceTree = "<group>"; };
+		CE8A2F071647A564009AF2E4 /* CalendarDayToday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarDayToday.png; sourceTree = "<group>"; };
+		CE8A2F081647A564009AF2E4 /* CalendarDayToday@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarDayToday@2x.png"; sourceTree = "<group>"; };
+		CE8A2F091647A564009AF2E4 /* CalendarDayTodaySelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarDayTodaySelected.png; sourceTree = "<group>"; };
+		CE8A2F0A1647A564009AF2E4 /* CalendarDayTodaySelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarDayTodaySelected@2x.png"; sourceTree = "<group>"; };
+		CE8A2F0B1647A564009AF2E4 /* CalendarShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarShadow.png; sourceTree = "<group>"; };
+		CE8A2F0C1647A564009AF2E4 /* CalendarShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarShadow@2x.png"; sourceTree = "<group>"; };
+		CE8A2F0D1647A564009AF2E4 /* CalendarTitleColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarTitleColor.png; sourceTree = "<group>"; };
+		CE8A2F0E1647A564009AF2E4 /* CalendarTitleColor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarTitleColor@2x.png"; sourceTree = "<group>"; };
+		CE8A2F0F1647A564009AF2E4 /* CalendarTitleDimColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarTitleDimColor.png; sourceTree = "<group>"; };
+		CE8A2F101647A564009AF2E4 /* CalendarTitleDimColor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarTitleDimColor@2x.png"; sourceTree = "<group>"; };
+		CEFC90EE164773FA008FD37F /* Syuho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syuho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFC90F2164773FA008FD37F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEFC90F4164773FA008FD37F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEFC90F6164773FA008FD37F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEFC90FA164773FA008FD37F /* Syuho-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Syuho-Info.plist"; sourceTree = "<group>"; };
+		CEFC90FC164773FA008FD37F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEFC90FE164773FA008FD37F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEFC9100164773FA008FD37F /* Syuho-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Syuho-Prefix.pch"; sourceTree = "<group>"; };
+		CEFC9101164773FA008FD37F /* SyuhoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyuhoAppDelegate.h; sourceTree = "<group>"; };
+		CEFC9102164773FA008FD37F /* SyuhoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyuhoAppDelegate.m; sourceTree = "<group>"; };
+		CEFC9104164773FA008FD37F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CEFC9106164773FA008FD37F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEFC9108164773FA008FD37F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEFC910A164773FA008FD37F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CEFC910B164773FB008FD37F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CEFC911916477440008FD37F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFC90EB164773FA008FD37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC911B1647744B008FD37F /* MessageUI.framework in Frameworks */,
+				CEFC90F3164773FA008FD37F /* UIKit.framework in Frameworks */,
+				CEFC90F5164773FA008FD37F /* Foundation.framework in Frameworks */,
+				CEFC90F7164773FA008FD37F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8A2EF31647A564009AF2E4 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A2EF41647A564009AF2E4 /* CalendarLogic.h */,
+				CE8A2EF51647A564009AF2E4 /* CalendarLogic.m */,
+				CE8A2EF61647A564009AF2E4 /* CalendarLogicDelegate.h */,
+				CE8A2EF71647A564009AF2E4 /* CalendarMonth.h */,
+				CE8A2EF81647A564009AF2E4 /* CalendarMonth.m */,
+				CE8A2EFB1647A564009AF2E4 /* CalendarViewControllerDelegate.h */,
+				CE8A2EFC1647A564009AF2E4 /* Images */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		CE8A2EFC1647A564009AF2E4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A2EFD1647A564009AF2E4 /* CalendarArrowLeft.png */,
+				CE8A2EFE1647A564009AF2E4 /* CalendarArrowLeft@2x.png */,
+				CE8A2EFF1647A564009AF2E4 /* CalendarArrowRight.png */,
+				CE8A2F001647A564009AF2E4 /* CalendarArrowRight@2x.png */,
+				CE8A2F011647A564009AF2E4 /* CalendarBackground.png */,
+				CE8A2F021647A564009AF2E4 /* CalendarBackground@2x.png */,
+				CE8A2F031647A564009AF2E4 /* CalendarDaySelected.png */,
+				CE8A2F041647A564009AF2E4 /* CalendarDaySelected@2x.png */,
+				CE8A2F051647A564009AF2E4 /* CalendarDayTile.png */,
+				CE8A2F061647A564009AF2E4 /* CalendarDayTile@2x.png */,
+				CE8A2F071647A564009AF2E4 /* CalendarDayToday.png */,
+				CE8A2F081647A564009AF2E4 /* CalendarDayToday@2x.png */,
+				CE8A2F091647A564009AF2E4 /* CalendarDayTodaySelected.png */,
+				CE8A2F0A1647A564009AF2E4 /* CalendarDayTodaySelected@2x.png */,
+				CE8A2F0B1647A564009AF2E4 /* CalendarShadow.png */,
+				CE8A2F0C1647A564009AF2E4 /* CalendarShadow@2x.png */,
+				CE8A2F0D1647A564009AF2E4 /* CalendarTitleColor.png */,
+				CE8A2F0E1647A564009AF2E4 /* CalendarTitleColor@2x.png */,
+				CE8A2F0F1647A564009AF2E4 /* CalendarTitleDimColor.png */,
+				CE8A2F101647A564009AF2E4 /* CalendarTitleDimColor@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CEFC90E3164773FA008FD37F = {
+			isa = PBXGroup;
+			children = (
+				CEFC90F8164773FA008FD37F /* Syuho */,
+				CEFC90F1164773FA008FD37F /* Frameworks */,
+				CEFC90EF164773FA008FD37F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFC90EF164773FA008FD37F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC90EE164773FA008FD37F /* Syuho.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFC90F1164773FA008FD37F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A2EF31647A564009AF2E4 /* Calendar */,
+				CEFC911916477440008FD37F /* MessageUI.framework */,
+				CEFC90F2164773FA008FD37F /* UIKit.framework */,
+				CEFC90F4164773FA008FD37F /* Foundation.framework */,
+				CEFC90F6164773FA008FD37F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFC90F8164773FA008FD37F /* Syuho */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC9101164773FA008FD37F /* SyuhoAppDelegate.h */,
+				CEFC9102164773FA008FD37F /* SyuhoAppDelegate.m */,
+				CEFC910A164773FA008FD37F /* RootViewController.h */,
+				CEFC910B164773FB008FD37F /* RootViewController.m */,
+				CE8A2EF91647A564009AF2E4 /* CalendarViewController.h */,
+				CE8A2EFA1647A564009AF2E4 /* CalendarViewController.m */,
+				CEFC90F9164773FA008FD37F /* Supporting Files */,
+			);
+			path = Syuho;
+			sourceTree = "<group>";
+		};
+		CEFC90F9164773FA008FD37F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC90FA164773FA008FD37F /* Syuho-Info.plist */,
+				CEFC90FB164773FA008FD37F /* InfoPlist.strings */,
+				CEFC90FE164773FA008FD37F /* main.m */,
+				CEFC9100164773FA008FD37F /* Syuho-Prefix.pch */,
+				CEFC9104164773FA008FD37F /* Default.png */,
+				CEFC9106164773FA008FD37F /* Default@2x.png */,
+				CEFC9108164773FA008FD37F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFC90ED164773FA008FD37F /* Syuho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFC9112164773FB008FD37F /* Build configuration list for PBXNativeTarget "Syuho" */;
+			buildPhases = (
+				CEFC90EA164773FA008FD37F /* Sources */,
+				CEFC90EB164773FA008FD37F /* Frameworks */,
+				CEFC90EC164773FA008FD37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Syuho;
+			productName = Syuho;
+			productReference = CEFC90EE164773FA008FD37F /* Syuho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFC90E5164773FA008FD37F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = user;
+			};
+			buildConfigurationList = CEFC90E8164773FA008FD37F /* Build configuration list for PBXProject "Syuho" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEFC90E3164773FA008FD37F;
+			productRefGroup = CEFC90EF164773FA008FD37F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFC90ED164773FA008FD37F /* Syuho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFC90EC164773FA008FD37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC90FD164773FA008FD37F /* InfoPlist.strings in Resources */,
+				CEFC9105164773FA008FD37F /* Default.png in Resources */,
+				CEFC9107164773FA008FD37F /* Default@2x.png in Resources */,
+				CEFC9109164773FA008FD37F /* Default-568h@2x.png in Resources */,
+				CE8A2F141647A564009AF2E4 /* CalendarArrowLeft.png in Resources */,
+				CE8A2F151647A564009AF2E4 /* CalendarArrowLeft@2x.png in Resources */,
+				CE8A2F161647A564009AF2E4 /* CalendarArrowRight.png in Resources */,
+				CE8A2F171647A564009AF2E4 /* CalendarArrowRight@2x.png in Resources */,
+				CE8A2F181647A564009AF2E4 /* CalendarBackground.png in Resources */,
+				CE8A2F191647A564009AF2E4 /* CalendarBackground@2x.png in Resources */,
+				CE8A2F1A1647A564009AF2E4 /* CalendarDaySelected.png in Resources */,
+				CE8A2F1B1647A564009AF2E4 /* CalendarDaySelected@2x.png in Resources */,
+				CE8A2F1C1647A564009AF2E4 /* CalendarDayTile.png in Resources */,
+				CE8A2F1D1647A564009AF2E4 /* CalendarDayTile@2x.png in Resources */,
+				CE8A2F1E1647A564009AF2E4 /* CalendarDayToday.png in Resources */,
+				CE8A2F1F1647A564009AF2E4 /* CalendarDayToday@2x.png in Resources */,
+				CE8A2F201647A564009AF2E4 /* CalendarDayTodaySelected.png in Resources */,
+				CE8A2F211647A564009AF2E4 /* CalendarDayTodaySelected@2x.png in Resources */,
+				CE8A2F221647A564009AF2E4 /* CalendarShadow.png in Resources */,
+				CE8A2F231647A564009AF2E4 /* CalendarShadow@2x.png in Resources */,
+				CE8A2F241647A564009AF2E4 /* CalendarTitleColor.png in Resources */,
+				CE8A2F251647A564009AF2E4 /* CalendarTitleColor@2x.png in Resources */,
+				CE8A2F261647A564009AF2E4 /* CalendarTitleDimColor.png in Resources */,
+				CE8A2F271647A564009AF2E4 /* CalendarTitleDimColor@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFC90EA164773FA008FD37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC90FF164773FA008FD37F /* main.m in Sources */,
+				CEFC9103164773FA008FD37F /* SyuhoAppDelegate.m in Sources */,
+				CEFC910C164773FB008FD37F /* RootViewController.m in Sources */,
+				CE8A2F111647A564009AF2E4 /* CalendarLogic.m in Sources */,
+				CE8A2F121647A564009AF2E4 /* CalendarMonth.m in Sources */,
+				CE8A2F131647A564009AF2E4 /* CalendarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFC90FB164773FA008FD37F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFC90FC164773FA008FD37F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFC9110164773FB008FD37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Akinari Ito (KEPJY79E4T)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0595F2BC-6F6E-41FE-8DE2-7334D4B796AD";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		CEFC9111164773FB008FD37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Akinari Ito (KEPJY79E4T)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0595F2BC-6F6E-41FE-8DE2-7334D4B796AD";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		CEFC9113164773FB008FD37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akinari Ito (KEPJY79E4T)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Syuho/Syuho-Prefix.pch";
+				INFOPLIST_FILE = "Syuho/Syuho-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0595F2BC-6F6E-41FE-8DE2-7334D4B796AD";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEFC9114164773FB008FD37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akinari Ito (KEPJY79E4T)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Syuho/Syuho-Prefix.pch";
+				INFOPLIST_FILE = "Syuho/Syuho-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0595F2BC-6F6E-41FE-8DE2-7334D4B796AD";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFC90E8164773FA008FD37F /* Build configuration list for PBXProject "Syuho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC9110164773FB008FD37F /* Debug */,
+				CEFC9111164773FB008FD37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFC9112164773FB008FD37F /* Build configuration list for PBXNativeTarget "Syuho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC9113164773FB008FD37F /* Debug */,
+				CEFC9114164773FB008FD37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFC90E5164773FA008FD37F /* Project object */;
+}
